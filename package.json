@@ -1,0 +1,25 @@
+{
+	"name": "bookmark-app",
+	"version": "1.0.0",
+	"description": "App for storing your bookmarks",
+	"main": "index.js",
+	"scripts": {
+		"watch:sass": "node-sass src/style/style.scss src/style.css -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/drozds/bookmark-app.git"
+	},
+	"keywords": [
+		"bookmark"
+	],
+	"author": "Siarhei Drozd",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/drozds/bookmark-app/issues"
+	},
+	"homepage": "https://github.com/drozds/bookmark-app#readme",
+	"devDependencies": {
+		"node-sass": "^4.14.1"
+	}
+}
